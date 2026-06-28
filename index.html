@@ -147,7 +147,34 @@ h2{
     word-break: normal;
     overflow-wrap: break-word;
 }
+.notice-bar{
+    width:100%;
+    background:#F4C400;
+    color:#000;
+    display:flex;
+    align-items:center;
+    padding:10px 0;
+    overflow:hidden;
+}
 
+.notice-title{
+    background:#0B1F3A;
+    color:#FFD700;
+    padding:10px 18px;
+    margin:0 15px;
+    border-radius:4px;
+    font-weight:bold;
+    white-space:nowrap;
+}
+
+.notice-marquee{
+    flex:1;
+    font-size:18px;
+}
+
+.notice-marquee marquee{
+    width:100%;
+}
 
 
 
@@ -230,8 +257,16 @@ font-weight:bold;">
 
 <a href="#contact">Contact</a>
 </nav>
+<div class="notice-bar">
+    <div class="notice-title">PUBLIC NOTICE</div>
 
-}
+    <div class="notice-marquee">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            Welcome to ESS Infotech Solutions. You can write any public notice here.
+        </marquee>
+    </div>
+</div>
+
 
 
 
