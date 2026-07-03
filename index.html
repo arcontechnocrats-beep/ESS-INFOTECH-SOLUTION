@@ -268,24 +268,35 @@ color:white;
 
 .gallery{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns:repeat(4,1fr);
     gap:20px;
-    max-width:1200px;
-    margin:30px auto;
-    padding:20px;
+    max-width:1400px;
+    margin:10px auto;
+    padding:0;
 }
 
 .gallery img{
     width:100%;
-    height:250px;
+    height:220px;
     object-fit:cover;
     border-radius:12px;
-    box-shadow:0 4px 12px rgba(0,0,0,0.15);
-    transition:transform .3s;
+    display:block;
 }
 
 .gallery img:hover{
     transform:scale(1.05);
+}
+
+@media (max-width:768px){
+    .gallery{
+        grid-template-columns:repeat(2,1fr);
+        gap:10px;
+    }
+
+    .gallery img{
+        height:180px;
+    }
+
 
 }    
 </style>
@@ -618,17 +629,16 @@ PMJAY-SEHAT, Ayushman Vay Vandana, ABHA Health ID
         ESS Infotech Solutions actively contributes to Government flagship programmes and supporting outreach initiatives by facilitating citizen engagement, digital service delivery, and community outreach activities. We work in collaboration with various Government departments and institutions to enhance public participation, improve access to welfare schemes, and promote inclusive socio-economic development.
     </p>
 
-    <p>
-        Our participation includes programmes related to Rural Drinking Water &amp; Sanitation (Jal Jeevan Mission), Ayushman Bharat (PM-JAY), Rural Development, Labour Welfare &amp; Social Security, Financial Inclusion, Digital India, Skill Development, Entrepreneurship Promotion, Agriculture &amp; Farmer Welfare, Women Empowerment, Citizen-Centric Services, Environmental Sustainability, Health &amp; Nutrition, Education &amp; Scholarships, Disaster Preparedness, and other public welfare initiatives.
-    </p>
-</section>
-
-
+<p style="margin-bottom:0;">
+Our participation includes programmes related to Rural Drinking Water &amp; Sanitation (Jal Jeevan Mission), Ayushman Bharat (PM-JAY), Rural Development, Labour Welfare &amp; Social Security, Financial Inclusion, Digital India, Skill Development, Entrepreneurship Promotion, Agriculture &amp; Farmer Welfare, Women Empowerment, Citizen-Centric Services, Environmental Sustainability, Health &amp; Nutrition, Education &amp; Scholarships, Disaster Preparedness, and other public welfare initiatives.
 </p>
-
 </section>
-<h3 style="text-align:center; margin:30px 0;">
-Glimpses of Our Participation in Government Flagship Programmes and Public Outreach Initiatives
+<img src="outreach-banner.png"
+     alt="Government Flagship Outreach 
+Programmes"
+    style="width:100%; display:block; margin:-10px 0 0 0; padding:0;"
+<h3 style="text-align:center; margin:0; padding-top:5px;">
+    Glimpses of Our Participation in Government Flagship Programmes and Public Outreach Initiatives
 </h3>
 
 <div class="gallery">
@@ -640,8 +650,20 @@ Glimpses of Our Participation in Government Flagship Programmes and Public Outre
   <img src="gallery6.jpeg" alt="">
   <img src="gallery7.jpeg" alt="">
   <img src="gallery8.jpeg" alt="">
+  <img src="gallery9.jpeg" alt="">
+  <img src="gallery10.jpeg" alt="">
+  <img src="gallery11.jpeg" alt="">
+  <img src="gallery12.jpeg" alt="">  
+  <img src="gallery13.jpeg" alt="">
+  <img src="gallery14.jpeg" alt="">
+  <img src="gallery15.jpeg" alt="">
+  <img src="gallery16.jpeg" alt="">  
+  <img src="gallery17.jpeg" alt="">
+  <img src="gallery18.jpeg" alt="">
+  <img src="gallery19.jpeg" alt=""> 
+  <img src="gallery20.jpeg" alt="">
 </div>
-
+</section>
 <section id="query">
     <h2>Send Your Query</h2>
 
