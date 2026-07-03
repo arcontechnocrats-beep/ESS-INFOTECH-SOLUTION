@@ -311,8 +311,13 @@ color:white;
     }
 
     .gallery img{
-        height:160px;
-    }
+    width:100%;
+    aspect-ratio:1 / 1;
+    object-fit:cover;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    transition:transform .3s;
+    display:block;
 }
     
 
