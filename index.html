@@ -266,9 +266,28 @@ color:white;
 
     
 
-
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    max-width:1200px;
+    margin:30px auto;
+    padding:20px;
 }
-   
+
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    transition:transform .3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+
+}    
 </style>
 
 </head>
@@ -605,15 +624,23 @@ PMJAY-SEHAT, Ayushman Vay Vandana, ABHA Health ID
 </section>
 
 
+</p>
 
-
-
+</section>
 <h3 style="text-align:center; margin:30px 0;">
 Glimpses of Our Participation in Government Flagship Programmes and Public Outreach Initiatives
 </h3>
 
-
-
+<div class="gallery">
+  <img src="gallery1.jpeg" alt="">
+  <img src="gallery2.jpeg" alt="">
+  <img src="gallery3.jpeg" alt="">
+  <img src="gallery4.jpeg" alt="">
+  <img src="gallery5.jpeg" alt="">
+  <img src="gallery6.jpeg" alt="">
+  <img src="gallery7.jpeg" alt="">
+  <img src="gallery8.jpeg" alt="">
+</div>
 
 <section id="query">
     <h2>Send Your Query</h2>
